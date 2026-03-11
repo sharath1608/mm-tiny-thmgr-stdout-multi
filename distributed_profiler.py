@@ -54,7 +54,7 @@ class Server:
 
     def base_command(self) -> List[str]:
         cmd = [
-            "ssh",
+            shutil.which("ssh") or "ssh",
             "-p",
             str(self.port),
             "-o",
