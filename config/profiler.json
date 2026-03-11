@@ -1,7 +1,7 @@
 {
   "job_id": "auto",
   "shared_files": [
-    "data.txt",
+    "data.csv",
     "core.txt",
     "power-profile.csv"
   ],
